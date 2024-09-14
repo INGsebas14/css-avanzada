@@ -6,12 +6,45 @@ body{
     background-image: url(../assets/de-bloqueo.jpeg);
 }
 main{
-    
+    color: aliceblue;
 }
+div{
+    gap: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+div.ex1 {
+    width: 500px;
+    margin: auto;
+    text-align: center;
+    border: 3px solid green;
+  }
 h1{
     align-items: center;
 }
 p{
     width: 100px;
     background-color: blue;
+}
+a{
+    width: 80px;
+    background-color: black;
+    color: #fff;
+    padding: 1.5rem;
+    border-radius: 20px;
+    text-decoration: none;
+}
+a:visited{
+    color: red;
+}
+a:hover{
+    background-color: #00ff00;
+    color: #fff;
+}
+ol{
+    background-color: aqua;
+    width: 100px;
+    list-style-position: inside;
+    margin: 2rem;
+    list-style-type: upper-roman;
 }
