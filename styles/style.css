@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(../assets/de-bloqueo.jpeg);
+}
+main{
+    
+}
+h1{
+    align-items: center;
+}
+p{
+    width: 100px;
+    background-color: blue;
+}
